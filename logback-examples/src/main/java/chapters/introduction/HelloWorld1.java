@@ -13,6 +13,7 @@
  */
 package chapters.introduction;
 
+// 1. NOT logback reference as classes imported
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,6 +21,7 @@ public class HelloWorld1 {
 
     public static void main(String[] args) {
 
+        // 2. NO configuration file added -> logback adds a ConsoleAppender -- Check the root output message --
         Logger logger = LoggerFactory.getLogger("chapters.introduction.HelloWorld1");
         logger.debug("Hello world.");
     }
