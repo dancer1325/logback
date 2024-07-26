@@ -1,0 +1,1 @@
+* == internal logback's error reporting system
