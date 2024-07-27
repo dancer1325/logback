@@ -88,7 +88,8 @@
                         </configuration>
                     </execution>
 
-                    <execution>
+                    <!-- Comment, because I get errors, trying to compile -->
+                    <!--<execution>
                         <id>java21-compile</id>
                         <phase>compile</phase>
                         <goals>
@@ -101,7 +102,7 @@
                             </compileSourceRoots>
                             <multiReleaseOutput>true</multiReleaseOutput>
                         </configuration>
-                    </execution>
+                    </execution>-->
                 </executions>
             </plugin>
             <plugin>
